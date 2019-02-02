@@ -56,5 +56,17 @@ public void div() {
   }
 	
 	
+   
+   @Test
+
+   public void addition() {
+   	
+   	System.out.println("Addition");
+   	int a = 100;
+   	int b = 200;
+   	Assert.assertEquals(300, a + b);
+   	
+   }
+ 	
 	
 }
