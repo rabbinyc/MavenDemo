@@ -62,9 +62,9 @@ public void div() {
    public void addition() {
    	
    	System.out.println("Addition");
-   	int a = 100;
+   	int a = 200;
    	int b = 200;
-   	Assert.assertEquals(300, a + b);
+   	Assert.assertEquals(400, a+b);
    	
    }
  	
