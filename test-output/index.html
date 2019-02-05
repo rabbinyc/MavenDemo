@@ -48,7 +48,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\RABBI\AppData\Local\Temp\testng-eclipse--2075929149\testng-customsuite.xml</span>
+                    <span>C:\Users\RABBI\AppData\Local\Temp\testng-eclipse--1220795444\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -90,7 +90,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">5 methods,   5 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -99,6 +99,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.DemoTest" hash-for-method="addition">addition</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.DemoTest" hash-for-method="div">div</a> <!-- method navigator-link -->
@@ -139,6 +144,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="addition">
+                  </a> <!-- addition -->
+                  <span class="method-name">addition</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="div">
                   </a> <!-- div -->
                   <span class="method-name">div</span>
@@ -170,7 +182,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\RABBI\AppData\Local\Temp\testng-eclipse--2075929149\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\RABBI\AppData\Local\Temp\testng-eclipse--1220795444\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -219,28 +231,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'div')
+data.setCell(0, 1, 'addition')
 data.setCell(0, 2, 'com.qa.test.DemoTest')
-data.setCell(0, 3, 13);
+data.setCell(0, 3, 11);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'subtraction')
+data.setCell(1, 1, 'multiply')
 data.setCell(1, 2, 'com.qa.test.DemoTest')
 data.setCell(1, 3, 2);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'sum')
+data.setCell(2, 1, 'div')
 data.setCell(2, 2, 'com.qa.test.DemoTest')
 data.setCell(2, 3, 2);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'multiply')
+data.setCell(3, 1, 'sum')
 data.setCell(3, 2, 'com.qa.test.DemoTest')
-data.setCell(3, 3, 2);
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'subtraction')
+data.setCell(4, 2, 'com.qa.test.DemoTest')
+data.setCell(4, 3, 1);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 ms</span>
+              <span class="suite-total-time">Total running time: 17 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -268,20 +284,24 @@ return data;
             <div class="chronological-class">
               <div class="chronological-class-name">com.qa.test.DemoTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">div</span>
+                <span class="method-name">addition</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
+                <span class="method-name">div</span>
+                <span class="method-start">13 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">multiply</span>
-                <span class="method-start">14 ms</span>
+                <span class="method-start">17 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">subtraction</span>
-                <span class="method-start">18 ms</span>
+                <span class="method-start">21 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">sum</span>
-                <span class="method-start">22 ms</span>
+                <span class="method-start">24 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
